@@ -10,6 +10,7 @@ var favourite = document.getElementById("favourites");
 
 exit.onclick = function () {
     mod.style.display = "none";
+    renderBook()
 };
 
 
