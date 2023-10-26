@@ -1,0 +1,253 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+
+.header .header-1 {
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header-1 .logo {
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+
+.header .header-1 .logo i {
+    color: green;
+}
+
+.header .header-1 .search-form {
+    width: 30%;
+    height: 40px;
+    border: solid green;
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: .5rem;
+}
+
+.header .header-1 .search-form input {
+    font-size: 20px;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    text-transform: none;
+    color: black;
+}
+
+.header .header-1 .search-form label {
+    font-size: 25px;
+    padding-right: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.header .header-2 {
+    background: green;
+}
+
+.header .header-2 .navbare {
+    text-align: center;
+}
+
+.header .header-2 .navbare a {
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.header .header-2 .navbare a:hover {
+    background: white;
+    border: solid green;
+    color: black;
+    opacity: 0.5;
+}
+
+nav #remove {
+    display: none;
+}
+
+.home {
+    /* some image  */
+    padding: 20px;
+}
+
+.home .row {
+    display: flex;
+    align-items: center;
+}
+
+.home .row .books-slider {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.home .row .books-slider a img {
+    height: 200px;
+}
+
+.home .row .books-slider a:hover img {
+    transform: scale(.9);
+}
+
+.home .row .books-slider .stand {
+    width: 85%;
+    margin-top: 2px;
+}
+
+
+.home .row .content {
+    color: black;
+}
+
+
+.home .row .content h3 {
+    color: black;
+    font-size: 4.5rem;
+}
+
+.home .row .content p {
+    font-size: 1.4rem;
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.hmodal,
+.rmodal,
+.mymodal {
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.mymodal img{
+    height: 60%;
+    margin: 0 auto;
+}
+
+.mymodal .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mymodal .modal-content p {
+    font-size: 15px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.modal-content input, textarea{
+    border: 1px solid red;
+    background-color: #fefefe;
+    margin: 2px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    font-size: large;
+    
+}
+
+.modal-content p {
+    font-size: 25px;
+}
+
+.exit,
+.rexit,
+.d-exit,
+.k-exit {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.exit:hover,
+.exit:focus,
+.k-exit:hover,
+.k-exit:focus
+.rexit:hover,
+.rexit:focus,
+.d-exit:hover,
+.d-exit:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.move {
+    margin: 40px;
+}
+
+.featured img {
+    width: 50%;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.auth {
+    font-weight: bolder;
+}
+
+p {
+    font-size: 20px;
+}
+
+.fa {
+    margin-left: 45px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.box {
+    margin-top: 5px;
+}
+
+.mymodal {
+    display: none;
+}
