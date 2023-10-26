@@ -101,8 +101,9 @@ function AddFavourite(title, author) {
         {
             bookNow.favourite = true;
         }
-        else{
-            books[indexT].favourite = true;
+        else if (bookNow.favourite == true)
+        {
+            bookNow.favourite = false;
         }
         localStorage.setItem("books", JSON.stringify(books));
     }
@@ -193,6 +194,11 @@ function renderBook() {
         box.appendChild(year);
         box.appendChild(price);
         row.appendChild(box);
+
+        if (book.favourite == true)
+        {
+            span2.style.color = "red";
+        }
     }
 
     main.appendChild(row);
